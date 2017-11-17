@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ums.drawqixingdemo.MainActivity"
+    android:orientation="vertical"
+    >
+    <Button
+        android:id="@+id/jump_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="跳转"
+        />
+
+    <Button
+        android:id="@+id/jump_setting2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="跳转2"
+        />
+
+    <!--<com.ums.drawqixingdemo.QiXingView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--<com.ums.drawqixingdemo.DrawTextDemo-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="600px"-->
+        <!--android:background="#66d985"-->
+        <!--/>-->
+
+    <com.ums.drawqixingdemo.CalenderView
+        android:id="@+id/calenderView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:dateColor="#000"
+        >
+
+    </com.ums.drawqixingdemo.CalenderView>
+
+</LinearLayout>

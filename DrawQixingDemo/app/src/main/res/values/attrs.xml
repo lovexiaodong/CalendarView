@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CalenderView">
+        <attr name="lineColor" format="color"/>
+        <attr name="weekColor" format="color"/>
+        <attr name="weekSize" format="dimension"/>
+        <attr name="weekBackground" format="color"/>
+        <attr name="dateColor" format="color"/>
+        <attr name="dateSize" format="color"/>
+        <attr name="dateBackground" format="color"/>
+        <attr name="selectBackground" format="color"/>
+        <attr name="lineBorder" format="dimension"/>
+    </declare-styleable>
+
+</resources>
